@@ -3,4 +3,4 @@
 1. http/http-enable-https.sh
 1. owncloud/owncloud-install-<OS-version>.sh
 
-Visit https://<server-name>/owncloud.
+Visit `https://<server-name>/owncloud`.
