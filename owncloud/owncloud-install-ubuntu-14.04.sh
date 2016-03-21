@@ -4,6 +4,6 @@ wget -nv https://download.owncloud.org/download/repositories/stable/xUbuntu_14.0
 apt-key add - < Release.key
 rm Release.key
 apt-get update
-apt-get install owncloud
+apt-get install owncloud -y
 ln -s /var/www/owncloud /usr/share/owncloud
 service apache2 reload
